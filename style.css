@@ -1,0 +1,55 @@
+body{
+    background-position: center;
+    background-size:cover;
+}
+
+.heading{
+font-size: 25px;
+font-family: monospace;
+width: 100%;
+margin-top:0px;
+padding: 20px;
+}
+
+.note{
+    font-size: 20px;
+    color:black;
+}
+
+.speed_box{
+    float: right;
+    margin-right: 15px;
+}
+
+.volume_box{
+float: left;
+margin-left: 15px;
+}
+
+img{
+    width: 300px;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+
+button{
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+#volume,#speed{
+    font-size: 25px;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+canvas{
+    border-width:1px;
+    border-color: white;
+    border-style: solid;
+    margin-top: 80px;
+    border-radius: 10px;
+}
